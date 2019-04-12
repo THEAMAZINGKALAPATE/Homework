@@ -86,8 +86,8 @@ int main()
 
 	cout<<"\nInvalid Input";
 
-	break;
-
+	return 0;
 	}
+	
 
 }
