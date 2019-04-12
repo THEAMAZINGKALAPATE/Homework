@@ -1,0 +1,93 @@
+#include<iostream>
+
+#include<string>
+
+using namespace std;
+
+int main()
+
+{
+
+	int a, b, c;	
+
+	cout<<"This program is designed to display Month Day Year using integer inputs\n";
+
+	cout<<"\nEnter Month";
+
+	cin>>a;
+
+	cout<<"\nEnter Day";
+
+	cin>>b;
+
+	cout<<"\nEnter Year";
+
+	cin>>c;
+
+	cout<<"\n";
+
+	
+
+	while ((int(float(a))) == float(a) && (int(float(b))) == float(b)  && (int(float(c))) == float(c))
+
+	
+
+	{
+
+	if (a==1 && b>0 && b<32 && c>999 && c<10000)
+
+	cout<<"January "<<b<<", "<<c;
+
+	else if (a==2 && b>0 && b<29 && c>999 && c<10000)
+
+	cout<<"February "<<b<<", "<<c;
+
+	else if (a==3 && b>0 && b<32 && c>999 && c<10000)
+
+	cout<<"March "<<b<<", "<<c;
+
+	else if (a==4 && b>0 && b<31 && c>999 && c<10000)
+
+	cout<<"April "<<b<<", "<<c;
+
+	else if (a==5 && b>0 && b<32 && c>999 && c<10000)
+
+	cout<<"May "<<b<<", "<<c;
+
+	else if (a==6 && b>0 && b<31 && c>999 && c<10000)
+
+	cout<<"June "<<b<<", "<<c;
+
+	else if (a==7 && b>0 && b<32 && c>999 && c<10000)
+
+	cout<<"July "<<b<<", "<<c;
+
+	else if (a==8 && b>0 && b<32 && c>999 && c<10000)
+
+	cout<<"August "<<b<<", "<<c;
+
+	else if (a==9 && b>0 && b<31 && c>999 && c<10000)
+
+	cout<<"September "<<b<<", "<<c;
+
+	else if (a==10 && b>0 && b<32 && c>999 && c<10000)
+
+	cout<<"October "<<c<<", "<<b;
+
+	else if (a==11 && b>0 && b<31 && c>999 && c<10000)
+
+	cout<<"November "<<b<<", "<<c;
+
+	else if (a==12 && b>0 && b<32 && c>999 && c<10000)
+
+	cout<<"December "<<b<<", "<<c;
+
+	else
+
+	cout<<"\nInvalid Input";
+
+	break;
+
+	}
+
+}
