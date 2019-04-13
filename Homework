@@ -1,5 +1,5 @@
 #include<iostream>
-
+#include<conio.h>
 #include<string>
 
 using namespace std;
@@ -36,55 +36,54 @@ int main()
 
 	if (a==1 && b>0 && b<32 && c>999 && c<10000)
 
-	cout<<"January "<<b<<", "<<c;
+	cout<<"January "<<b<<", "<<c <<endl;
 
 	else if (a==2 && b>0 && b<29 && c>999 && c<10000)
 
-	cout<<"February "<<b<<", "<<c;
+	cout<<"February "<<b<<", "<<c <<endl;
 
 	else if (a==3 && b>0 && b<32 && c>999 && c<10000)
 
-	cout<<"March "<<b<<", "<<c;
+	cout<<"March "<<b<<", "<<c <<endl;
 
 	else if (a==4 && b>0 && b<31 && c>999 && c<10000)
 
-	cout<<"April "<<b<<", "<<c;
+	cout<<"April "<<b<<", "<<c << endl;
 
 	else if (a==5 && b>0 && b<32 && c>999 && c<10000)
 
-	cout<<"May "<<b<<", "<<c;
+	cout<<"May "<<b<<", "<<c <<endl;
 
 	else if (a==6 && b>0 && b<31 && c>999 && c<10000)
 
-	cout<<"June "<<b<<", "<<c;
-
+	cout<<"June "<<b<<", "<<c<<endl;
 	else if (a==7 && b>0 && b<32 && c>999 && c<10000)
 
-	cout<<"July "<<b<<", "<<c;
+	cout<<"July "<<b<<", "<<c<< endl;
 
 	else if (a==8 && b>0 && b<32 && c>999 && c<10000)
 
-	cout<<"August "<<b<<", "<<c;
+	cout<<"August "<<b<<", "<<c<<endl;
 
 	else if (a==9 && b>0 && b<31 && c>999 && c<10000)
 
-	cout<<"September "<<b<<", "<<c;
+	cout<<"September "<<b<<", "<<c<<endl;
 
 	else if (a==10 && b>0 && b<32 && c>999 && c<10000)
 
-	cout<<"October "<<c<<", "<<b;
+	cout<<"October "<<b<<", "<<c<<endl;
 
 	else if (a==11 && b>0 && b<31 && c>999 && c<10000)
 
-	cout<<"November "<<b<<", "<<c;
+	cout<<"November "<<b<<", "<<c<<endl;
 
 	else if (a==12 && b>0 && b<32 && c>999 && c<10000)
 
-	cout<<"December "<<b<<", "<<c;
+	cout<<"December "<<b<<", "<<c<<endl;
 
 	else
 
-	cout<<"\nInvalid Input";
+	cout<<"\nInvalid Input"<<endl;
 
 	return 0;
 	}
