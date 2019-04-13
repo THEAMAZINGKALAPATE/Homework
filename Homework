@@ -10,21 +10,21 @@ int main()
 
 	int a, b, c;	
 
-	cout<<"This program is designed to display Month Day Year using integer inputs\n";
+	cout<<"This program is designed to display Month Day Year using integer inputs" << endl;
 
-	cout<<"\nEnter Month";
+	cout<<"Enter Month" << endl;
 
 	cin>>a;
 
-	cout<<"\nEnter Day";
+	cout<<"Enter Day" << endl;
 
 	cin>>b;
 
-	cout<<"\nEnter Year";
+	cout<<"Enter Year" << endl;
 
 	cin>>c;
 
-	cout<<"\n";
+	cout<<"_" << endl;
 
 	
 
@@ -83,8 +83,9 @@ int main()
 
 	else
 
-	cout<<"\nInvalid Input"<<endl;
+	cout<<"Invalid Input"<<endl;
 
+	_getch();
 	return 0;
 	}
 	
